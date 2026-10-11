@@ -1067,22 +1067,72 @@ export function HomePage({
                       Homebrew
                     </CardTitle>
                     <CardDescription className="font-mono">
-                      For macOS and Linux users
+                      Official Stealth Factory tap for macOS and Linux
                     </CardDescription>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="space-y-4">
                     <CodeBlock
-                      copyText={`brew tap stealth-factory/tap
-brew install gh-manager-cli`}
+                      copyText="brew install stealth-factory/tap/gh-manager-cli"
                       trackingTarget="installation-homebrew-copy-button"
                     >
-                      <div className="space-y-1">
-                        <div className="text-primary">brew tap stealth-factory/tap</div>
-                        <div className="text-primary">
-                          brew install gh-manager-cli
-                        </div>
+                      <div className="text-primary break-all pb-8">
+                        brew install stealth-factory/tap/gh-manager-cli
                       </div>
                     </CodeBlock>
+                    <p className="text-sm text-muted-foreground font-mono">
+                      With Homebrew installed, this command adds the tap and
+                      installs Node.js if needed. Run <code>gh-manager-cli</code>{' '}
+                      to get started.{' '}
+                      <a
+                        href="https://github.com/stealth-factory/homebrew-tap"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline"
+                        onClick={() => trackClick('installation-homebrew-tap-link')}
+                      >
+                        View the tap
+                      </a>
+                    </p>
+                    <details className="text-sm font-mono">
+                      <summary className="cursor-pointer text-primary">
+                        Update an existing installation
+                      </summary>
+                      <CodeBlock
+                        className="mt-3"
+                        copyText={`brew update
+brew upgrade stealth-factory/tap/gh-manager-cli`}
+                        trackingTarget="installation-homebrew-update-copy-button"
+                      >
+                        <div className="space-y-1 text-primary break-all pb-8">
+                          <div>brew update</div>
+                          <div>brew upgrade stealth-factory/tap/gh-manager-cli</div>
+                        </div>
+                      </CodeBlock>
+                    </details>
+                    <details className="text-sm font-mono">
+                      <summary className="cursor-pointer text-primary">
+                        Moving from wiiiimm/tap?
+                      </summary>
+                      <p className="mt-3 text-muted-foreground">
+                        Switch your existing installation to the organization tap:
+                      </p>
+                      <CodeBlock
+                        className="mt-3"
+                        copyText={`brew tap stealth-factory/tap
+brew reinstall stealth-factory/tap/gh-manager-cli`}
+                        trackingTarget="installation-homebrew-migrate-copy-button"
+                      >
+                        <div className="space-y-1 text-primary break-all pb-8">
+                          <div>brew tap stealth-factory/tap</div>
+                          <div>brew reinstall stealth-factory/tap/gh-manager-cli</div>
+                        </div>
+                      </CodeBlock>
+                      <p className="mt-3 text-muted-foreground">
+                        Keep the old tap if you use other formulae from it. Only
+                        after migrating them all, optionally run{' '}
+                        <code>brew untap wiiiimm/tap</code>.
+                      </p>
+                    </details>
                   </CardContent>
                 </Card>
 

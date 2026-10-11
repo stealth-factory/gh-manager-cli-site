@@ -18,6 +18,43 @@ This is the official landing page for **gh-manager-cli** - an interactive TUI te
 - **npm Package**: [https://www.npmjs.com/package/gh-manager-cli](https://www.npmjs.com/package/gh-manager-cli)
 - **Quick Start**: `npx gh-manager-cli@latest`
 
+## Install gh-manager-cli with Homebrew
+
+With [Homebrew](https://brew.sh) installed on macOS or Linux:
+
+```bash
+brew install stealth-factory/tap/gh-manager-cli
+gh-manager-cli
+```
+
+The fully qualified command automatically adds the
+[Stealth Factory tap](https://github.com/stealth-factory/homebrew-tap) and installs
+Node.js if needed.
+
+### Update
+
+```bash
+brew update
+brew upgrade stealth-factory/tap/gh-manager-cli
+```
+
+### Migrate from the personal tap
+
+If you previously installed from `wiiiimm/tap`:
+
+```bash
+brew tap stealth-factory/tap
+brew reinstall stealth-factory/tap/gh-manager-cli
+```
+
+Keep the old tap if you still use other formulae from it. Only after migrating all
+of them, optionally remove it with `brew untap wiiiimm/tap`.
+
+The GitHub repository and Homebrew tap now belong to `stealth-factory`, but the
+public npm package remains **unscoped**: use `npx gh-manager-cli@latest` or
+`npm install -g gh-manager-cli@latest`. The `@stealth-factory/gh-manager-cli` scope
+is only used for GitHub Packages.
+
 ## ✨ Features
 
 - **🎥 Interactive Video Demo**: Optimized video showcasing the CLI in action
