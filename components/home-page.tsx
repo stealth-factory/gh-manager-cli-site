@@ -131,7 +131,7 @@ export function HomePage({
       'gh-manager-cli, github manager terminal, github manager cli, github terminal management, terminal ui github, tui github manager',
     downloadUrl: 'https://www.npmjs.com/package/gh-manager-cli',
     installUrl: 'https://www.npmjs.com/package/gh-manager-cli',
-    releaseNotes: 'https://github.com/wiiiimm/gh-manager-cli/releases',
+    releaseNotes: 'https://github.com/stealth-factory/gh-manager-cli/releases',
     screenshot: 'https://gh-manager-cli.dev/app-demo-poster.jpg',
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -200,7 +200,7 @@ export function HomePage({
                   asChild
                 >
                   <a
-                    href="https://github.com/wiiiimm/gh-manager-cli"
+                    href="https://github.com/stealth-factory/gh-manager-cli"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => trackClick('hero-github-button')}
@@ -1072,12 +1072,12 @@ export function HomePage({
                   </CardHeader>
                   <CardContent>
                     <CodeBlock
-                      copyText={`brew tap wiiiimm/tap
+                      copyText={`brew tap stealth-factory/tap
 brew install gh-manager-cli`}
                       trackingTarget="installation-homebrew-copy-button"
                     >
                       <div className="space-y-1">
-                        <div className="text-primary">brew tap wiiiimm/tap</div>
+                        <div className="text-primary">brew tap stealth-factory/tap</div>
                         <div className="text-primary">
                           brew install gh-manager-cli
                         </div>
@@ -1123,7 +1123,7 @@ brew install gh-manager-cli`}
                       Download standalone executables for Linux, macOS, and
                       Windows from{' '}
                       <a
-                        href="https://github.com/wiiiimm/gh-manager-cli/releases"
+                        href="https://github.com/stealth-factory/gh-manager-cli/releases"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline"
@@ -1250,7 +1250,7 @@ brew install gh-manager-cli`}
                   className="font-mono border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-zinc-900 dark:hover:text-zinc-100 transition-all duration-200"
                 >
                   <a
-                    href="https://github.com/wiiiimm/gh-manager-cli"
+                    href="https://github.com/stealth-factory/gh-manager-cli"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => trackClick('cta-github-button')}
@@ -1357,7 +1357,7 @@ brew install gh-manager-cli`}
 
                   <div className="flex justify-center">
                     <a
-                      href="https://github.com/wiiiimm/gh-manager-cli"
+                      href="https://github.com/stealth-factory/gh-manager-cli"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() =>
