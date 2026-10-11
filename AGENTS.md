@@ -11,7 +11,7 @@ This is the official landing page for **gh-manager-cli**, an interactive TUI ter
 - **Framework**: Next.js 14 with App Router
 - **Styling**: Tailwind CSS with custom terminal theme
 - **Deployment**: Vercel with automatic deployments
-- **Main CLI Repository**: https://github.com/wiiiimm/gh-manager-cli
+- **Main CLI Repository**: https://github.com/stealth-factory/gh-manager-cli
 - **npm Package**: https://www.npmjs.com/package/gh-manager-cli
 
 ## 🔧 Development Workflow
@@ -176,7 +176,7 @@ className="bg-card text-card-foreground border-border"
 
 ### Current Video Setup
 - **Source Files**: Located in `/docs/` directory
-- **Delivery**: GitHub raw URLs (https://raw.githubusercontent.com/wiiiimm/gh-manager-cli-site/main/docs/...)
+- **Delivery**: GitHub raw URLs (https://raw.githubusercontent.com/stealth-factory/gh-manager-cli-site/main/docs/...)
 - **Optimization**: FFmpeg with aggressive compression
 - **Fallbacks**: GIF preview → MP4 video → error state
 
@@ -304,8 +304,8 @@ Test in major browsers:
 
 ### Project Links
 - **Live Site**: https://gh-manager-cli.dev
-- **GitHub Repo**: https://github.com/wiiiimm/gh-manager-cli-site
-- **Main CLI Repo**: https://github.com/wiiiimm/gh-manager-cli
+- **GitHub Repo**: https://github.com/stealth-factory/gh-manager-cli-site
+- **Main CLI Repo**: https://github.com/stealth-factory/gh-manager-cli
 - **npm Package**: https://www.npmjs.com/package/gh-manager-cli
 
 ### Documentation

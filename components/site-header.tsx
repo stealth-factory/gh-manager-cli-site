@@ -57,7 +57,7 @@ export function SiteHeader() {
             asChild
           >
             <a
-              href="https://github.com/wiiiimm/gh-manager-cli"
+              href="https://github.com/stealth-factory/gh-manager-cli"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => trackClick('header-github-link')}

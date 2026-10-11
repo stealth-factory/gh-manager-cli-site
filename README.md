@@ -1,7 +1,7 @@
 # gh-manager-cli Landing Page
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://gh-manager-cli.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/wiiiimm/gh-manager-cli)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/stealth-factory/gh-manager-cli)
 [![npm](https://img.shields.io/badge/npm-Package-red?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/gh-manager-cli)
 
 ## Overview
@@ -14,7 +14,7 @@ This is the official landing page for **gh-manager-cli** - an interactive TUI te
 
 ## 📦 gh-manager-cli Links
 
-- **GitHub Repository**: [https://github.com/wiiiimm/gh-manager-cli](https://github.com/wiiiimm/gh-manager-cli)
+- **GitHub Repository**: [https://github.com/stealth-factory/gh-manager-cli](https://github.com/stealth-factory/gh-manager-cli)
 - **npm Package**: [https://www.npmjs.com/package/gh-manager-cli](https://www.npmjs.com/package/gh-manager-cli)
 - **Quick Start**: `npx gh-manager-cli@latest`
 
@@ -50,7 +50,7 @@ The site features an optimized demo video with smart loading:
 
 ```bash
 # Clone the repository
-git clone https://github.com/wiiiimm/gh-manager-cli-site.git
+git clone https://github.com/stealth-factory/gh-manager-cli-site.git
 cd gh-manager-cli-site
 
 # Install dependencies
@@ -112,7 +112,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Related Projects
 
-- **[gh-manager-cli](https://github.com/wiiiimm/gh-manager-cli)** - The main CLI tool
+- **[gh-manager-cli](https://github.com/stealth-factory/gh-manager-cli)** - The main CLI tool
 - **[Ink](https://github.com/vadimdemedes/ink)** - React for CLIs (what powers gh-manager-cli)
 
 ---

@@ -237,7 +237,7 @@ export default async function ChangelogPage() {
             <p className="text-muted-foreground text-sm sm:text-base md:text-lg font-mono max-w-2xl mx-auto">
               Every release of gh-manager-cli, fresh from{' '}
               <a
-                href="https://github.com/wiiiimm/gh-manager-cli/releases"
+                href="https://github.com/stealth-factory/gh-manager-cli/releases"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -255,7 +255,7 @@ export default async function ChangelogPage() {
                 Couldn&apos;t load the changelog right now.
               </p>
               <a
-                href="https://github.com/wiiiimm/gh-manager-cli/blob/main/CHANGELOG.md"
+                href="https://github.com/stealth-factory/gh-manager-cli/blob/main/CHANGELOG.md"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-mono text-primary hover:underline"

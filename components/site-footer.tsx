@@ -26,13 +26,13 @@ export function SiteFooter() {
               <div className="flex flex-wrap items-center gap-2 mt-2">
                 {/* GitHub Stars */}
                 <a
-                  href="https://github.com/wiiiimm/gh-manager-cli"
+                  href="https://github.com/stealth-factory/gh-manager-cli"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => trackClick('footer-github-stars')}
                 >
                   <img
-                    src="https://img.shields.io/github/stars/wiiiimm/gh-manager-cli?style=social"
+                    src="https://img.shields.io/github/stars/stealth-factory/gh-manager-cli?style=social"
                     alt="GitHub stars"
                     className="h-6"
                   />
@@ -40,13 +40,13 @@ export function SiteFooter() {
 
                 {/* GitHub Forks */}
                 <a
-                  href="https://github.com/wiiiimm/gh-manager-cli"
+                  href="https://github.com/stealth-factory/gh-manager-cli"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => trackClick('footer-github-forks')}
                 >
                   <img
-                    src="https://img.shields.io/github/forks/wiiiimm/gh-manager-cli?style=social"
+                    src="https://img.shields.io/github/forks/stealth-factory/gh-manager-cli?style=social"
                     alt="GitHub forks"
                     className="h-6"
                   />
@@ -76,7 +76,7 @@ export function SiteFooter() {
             <ul className="space-y-2 text-sm font-mono">
               <li>
                 <a
-                  href="https://github.com/wiiiimm/gh-manager-cli/tree/main/wiki"
+                  href="https://github.com/stealth-factory/gh-manager-cli/tree/main/wiki"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -107,7 +107,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="https://github.com/wiiiimm/gh-manager-cli/blob/main/wiki/Troubleshooting.md"
+                  href="https://github.com/stealth-factory/gh-manager-cli/blob/main/wiki/Troubleshooting.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -120,7 +120,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="https://github.com/wiiiimm/gh-manager-cli/blob/main/wiki/Roadmap.md"
+                  href="https://github.com/stealth-factory/gh-manager-cli/blob/main/wiki/Roadmap.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -139,7 +139,7 @@ export function SiteFooter() {
             <ul className="space-y-2 text-sm font-mono">
               <li>
                 <a
-                  href="https://github.com/wiiiimm/gh-manager-cli"
+                  href="https://github.com/stealth-factory/gh-manager-cli"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -163,7 +163,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="https://github.com/wiiiimm/gh-manager-cli/issues"
+                  href="https://github.com/stealth-factory/gh-manager-cli/issues"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -174,7 +174,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="https://github.com/wiiiimm/gh-manager-cli/blob/main/CONTRIBUTING.md"
+                  href="https://github.com/stealth-factory/gh-manager-cli/blob/main/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"

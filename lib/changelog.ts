@@ -1,7 +1,7 @@
 const CHANGELOG_URL =
-  'https://raw.githubusercontent.com/wiiiimm/gh-manager-cli/main/CHANGELOG.md';
+  'https://raw.githubusercontent.com/stealth-factory/gh-manager-cli/main/CHANGELOG.md';
 
-const REPO_URL = 'https://github.com/wiiiimm/gh-manager-cli';
+const REPO_URL = 'https://github.com/stealth-factory/gh-manager-cli';
 
 // Hourly background regeneration via ISR — keeps the page in sync with
 // upstream releases without webhooks or manual rebuilds
