@@ -1109,12 +1109,18 @@ brew upgrade stealth-factory/tap/gh-manager-cli`}
                         </div>
                       </CodeBlock>
                     </details>
+                    {/*
+                      Previous tap was the personal wiiiimm/tap. Keep it if other
+                      formulae still come from it; only after those migrate,
+                      optionally run `brew untap wiiiimm/tap`.
+                    */}
                     <details className="text-sm font-mono">
                       <summary className="cursor-pointer text-primary">
-                        Moving from wiiiimm/tap?
+                        Installed with Homebrew before?
                       </summary>
                       <p className="mt-3 text-muted-foreground">
-                        Switch your existing installation to the organization tap:
+                        The Homebrew tap has moved. Run these commands to switch
+                        over:
                       </p>
                       <CodeBlock
                         className="mt-3"
@@ -1127,11 +1133,6 @@ brew reinstall stealth-factory/tap/gh-manager-cli`}
                           <div>brew reinstall stealth-factory/tap/gh-manager-cli</div>
                         </div>
                       </CodeBlock>
-                      <p className="mt-3 text-muted-foreground">
-                        Keep the old tap if you use other formulae from it. Only
-                        after migrating them all, optionally run{' '}
-                        <code>brew untap wiiiimm/tap</code>.
-                      </p>
                     </details>
                   </CardContent>
                 </Card>

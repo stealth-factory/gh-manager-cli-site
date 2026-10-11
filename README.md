@@ -38,17 +38,16 @@ brew update
 brew upgrade stealth-factory/tap/gh-manager-cli
 ```
 
-### Migrate from the personal tap
+### Installed with Homebrew before?
 
-If you previously installed from `wiiiimm/tap`:
+The Homebrew tap has moved. Run these commands to switch over:
 
 ```bash
 brew tap stealth-factory/tap
 brew reinstall stealth-factory/tap/gh-manager-cli
 ```
 
-Keep the old tap if you still use other formulae from it. Only after migrating all
-of them, optionally remove it with `brew untap wiiiimm/tap`.
+<!-- Previous tap was the personal wiiiimm/tap. Keep it if other formulae still come from it; only after those migrate, optionally run `brew untap wiiiimm/tap`. -->
 
 The GitHub repository and Homebrew tap now belong to `stealth-factory`, but the
 public npm package remains **unscoped**: use `npx gh-manager-cli@latest` or
